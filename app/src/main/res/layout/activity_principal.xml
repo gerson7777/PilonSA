@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:scrollbarAlwaysDrawVerticalTrack="true"
+tools:context="agricolapilon.pilonsa.PrincipalActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Linea">
+        <EditText
+            android:id="@+id/txt_linea"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Proyecto">
+        <EditText
+            android:id="@+id/txt_Proyecto"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha Siembra">
+        <EditText
+            android:id="@+id/txt_FechaSiem"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Granos Sembrados">
+        <EditText
+            android:id="@+id/txt_granosSemb"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha Transplante">
+        <EditText
+            android:id="@+id/txt_fechaTranspla"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Plantas Transplantadas">
+        <EditText
+            android:id="@+id/txt_plantasTrans"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ubicacion">
+        <EditText
+            android:id="@+id/txt_Ubic"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha Polinizado">
+        <EditText
+            android:id="@+id/txt_FechaPolinizado"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Plantas Polinizadas">
+        <EditText
+            android:id="@+id/txt_plantasPolinizadas"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha Cosecha">
+        <EditText
+            android:id="@+id/txt_fechaCosecha"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mazorcas Cosechadas">
+        <EditText
+            android:id="@+id/txt_mazorcasCosechadas"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comentario">
+        <EditText
+            android:id="@+id/txt_comentario"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingTop="15dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Lista"
+        />
+    <ListView
+        android:id="@+id/lv_datosPersonas"
+        android:layout_width="239dp"
+        android:layout_height="200dp"
+        >
+    </ListView>
+</LinearLayout>
+
+
+</ScrollView>
+

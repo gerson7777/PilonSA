@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "648018057342",
+    "firebase_url": "https://agropilon-76e83.firebaseio.com",
+    "project_id": "agropilon-76e83",
+    "storage_bucket": "agropilon-76e83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648018057342:android:dfb3371a1ed0988d",
+        "android_client_info": {
+          "package_name": "agricolapilon.pilonsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648018057342-sndo8f0s4icioj7lnthgvheojj7oik52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "agricolapilon.pilonsa",
+            "certificate_hash": "e19f218abe82fdc50f283a40c41cc09e2cce6aa3"
+          }
+        },
+        {
+          "client_id": "648018057342-etc5782le0v57c7p3nrr7lmk8bu85k0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbh8G1XSIuGmjTMsPSICX2nWtabWghkl4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648018057342-etc5782le0v57c7p3nrr7lmk8bu85k0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
